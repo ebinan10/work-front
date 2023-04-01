@@ -25,7 +25,7 @@ const SignUp = () => {
              
     const  SubmitUserDetail = async (e) =>{
         try{ 
-          const userDetails =  await axios.post('http://localhost:3001/user', 
+          const userDetails =  await axios.post('/user', 
         {
           email:email,
           username:username,

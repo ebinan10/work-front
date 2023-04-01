@@ -1,7 +1,7 @@
 
 import axios from 'axios'
 
-const Url = 'http://localhost:3001'
+const Url = '/'
 export const UseAxios = axios.create({
   headers: {'Content-Type':'application/json'},
   baseURL: Url,

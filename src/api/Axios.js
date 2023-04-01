@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios';
 
 const Axios = () => {
-    const URL = 'http://localhost:3001'
+    const URL = '/'
 
     const axiosPrivate = axios.create({
         baseURL: URL,
