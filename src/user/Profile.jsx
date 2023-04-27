@@ -11,7 +11,7 @@ function Profile() {
   const usePrivate = UsePrivate();
   const navigate = useNavigate()
   
-  useEffect(() => {
+  useEffect(() => {  
     const User = async()=>{ 
       try{
         const Update = await usePrivate.get(`/user/${data.id}`);

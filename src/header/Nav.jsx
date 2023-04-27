@@ -26,7 +26,7 @@ import axios from 'axios'
   const Logout = async(e) =>{
     try{ 
            e.preventDefault()
-          const logout = await usePrivate.get('/refreshtoken/logout').then(
+          const logout = await usePrivate.get('/token/logout').then(
             ()=>{
               navigate('/login')
             }
