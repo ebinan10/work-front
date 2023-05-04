@@ -25,7 +25,7 @@ const SignUp = () => {
              
     const  SubmitUserDetail = async (e) =>{
         try{ 
-          const userDetails =  await axios.post('https://ebinan.onrender.com/user', 
+          const userDetails =  await axios.post('https://workoutbyudehnanakumo.onrender.com/user', 
         {
           email:email,
           username:username,
